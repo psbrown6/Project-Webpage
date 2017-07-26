@@ -1,0 +1,112 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* {
+   outline: 1px solid red !important;
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #330000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+li a:hover {
+  color: #ffcc33
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropcontent a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropcontent {
+  display: block;
+}
+
+.menu {
+  max-width: 1221px;
+}
+
+.content {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.photo {
+  max-width: 405px;
+  margin-top: 45px;
+  margin-left: 70px;
+border-radius: 50%}
+
+.description {
+  max-width: 700px;
+  margin-top: 40px;
+  margin-left: 45px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.birthday {
+  margin-top: 40px;
+  margin-left: 70px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-style:solid;
+  border-color:darkred;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+
+.fb {
+  width: 145px;
+  height: 45px;
+  margin-top: 60px;
+  margin-left: 45px;
+}
+
+.fb:hover {
+  opacity: 0.7;
+}
